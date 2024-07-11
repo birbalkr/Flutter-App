@@ -1,6 +1,5 @@
-import 'package:firstapp/features/authentication/screens/welcome/welcome.dart';
+import 'package:firstapp/features/authentication/screens/on_Boarding/on_boarding_screen.dart';
 import 'package:get/get.dart';
-import 'package:get/get_rx/get_rx.dart';
 
 class SplashScreenController extends GetxController{
   static SplashScreenController get find => Get.find();
@@ -11,7 +10,7 @@ class SplashScreenController extends GetxController{
     await Future.delayed(const Duration(milliseconds: 100));
     animate.value = true;
     await Future.delayed(const Duration(milliseconds: 2600));
-    Get.to(const Welcome());
+    Get.to( OnBoardingScreen());
   }
 
 }

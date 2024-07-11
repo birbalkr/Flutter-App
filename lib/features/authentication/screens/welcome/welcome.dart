@@ -10,6 +10,6 @@ class Welcome extends StatefulWidget {
 class _WelcomeState extends State<Welcome> {
   @override
   Widget build(BuildContext context) {
-    return Container(child: Text("data"),);
+    return Container(child: const Text("data"),);
   }
 }
