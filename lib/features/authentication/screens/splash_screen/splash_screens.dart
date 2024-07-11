@@ -48,7 +48,7 @@ class SplashScreen  extends StatelessWidget {
               bottom: splashController.animate.value ? 80 :-100,
               left: splashController.animate.value ? -25 :-100,
               height: 400,
-              child: const Image(image: const AssetImage(tbottom),)),
+              child: const Image(image: AssetImage(tbottom),)),
       ),
 ],
     ),

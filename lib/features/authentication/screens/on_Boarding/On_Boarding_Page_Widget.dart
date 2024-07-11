@@ -1,22 +1,21 @@
-import 'package:flutter/material.dart';
+import 'package:flutter/cupertino.dart';
 import '../../../models/model_on_boarding.dart';
 
 class OnBoardingPageWidget extends StatelessWidget {
-  OnBoardingPageWidget({
-    Key ? key,
-    required this.model,
-  }):super(key: key);
+   const OnBoardingPageWidget({Key ? key, required this.model}) : super(key : key);
 
   final OnBoardingModel model;
 
   @override
   Widget build(BuildContext context) {
+    final size = MediaQuery.of(context).size;
+
     return Container(
       color: model.bgColor,
       child: Column(
         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
         children: [
-          Image(image: AssetImage(model.image), height: model.height  * 0.5,),
+          Image(image: AssetImage(model.image), height: size.height  * 0.5,),
           Column(children: [
             Text(model.title),
             Text(model.subtitle),],),

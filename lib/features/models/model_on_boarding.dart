@@ -7,10 +7,8 @@ class OnBoardingModel{
   final String subtitle;
   final String counterText;
   final Color bgColor;
-  final double height;
 
   OnBoardingModel({
-    required this.height,
     required this.image,
     required this.bgColor,
     required this.counterText,
