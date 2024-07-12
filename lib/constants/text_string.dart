@@ -10,5 +10,5 @@ const String onboardcounter2='2/3';
 const String onboardcounter3='3/3';
 
 
-const String Tlogin = "Login";
-const String Tsigup ="Signup";
+const String tlogin = "LOGIN";
+const String tsigup ="SIGNUP";
