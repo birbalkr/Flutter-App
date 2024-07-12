@@ -34,9 +34,8 @@ final oncontroller = OnBoardingController();
                     side: const BorderSide(color: Colors.black26),
                     shape: const CircleBorder(),
                     padding: const EdgeInsets.all(20)
-                  ), child: Container(child: const Icon(Icons.arrow_forward_ios) ,
-                padding: const EdgeInsets.all(20.0),
-                decoration: const BoxDecoration(color: Colors.black87,shape: BoxShape.circle),),
+                  ), child: Container(padding: const EdgeInsets.all(20.0),
+                decoration: const BoxDecoration(color: Colors.black87,shape: BoxShape.circle),child: const Icon(Icons.arrow_forward_ios) ,),
             )),
           Positioned(
                 top: 50,

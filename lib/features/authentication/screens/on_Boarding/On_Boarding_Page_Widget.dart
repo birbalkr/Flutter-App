@@ -2,7 +2,7 @@ import 'package:flutter/cupertino.dart';
 import '../../../models/model_on_boarding.dart';
 
 class OnBoardingPageWidget extends StatelessWidget {
-   const OnBoardingPageWidget({Key ? key, required this.model}) : super(key : key);
+   const OnBoardingPageWidget({super.key, required this.model});
 
   final OnBoardingModel model;
 

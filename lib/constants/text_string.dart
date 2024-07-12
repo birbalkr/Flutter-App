@@ -9,6 +9,22 @@ const String onboardcounter1='1/3';
 const String onboardcounter2='2/3';
 const String onboardcounter3='3/3';
 
+// Welcome Screen Page
+const String tlogin = "LOGIN";
+const String tsigup ="SIGNUP";
 
-const String Tlogin = "Login";
-const String Tsigup ="Signup";
+// Login Screen text
+const String tLoginTitle = 'Welcome Back,';
+const String tLoginSubtitle = "Let's Play Game and Eran ";
+const String tEmail = 'Email';
+const String tpasswd = 'Password';
+const String tForgetPassword= 'Forget Password';
+const String tSingnGoogle ="Sign-in-with-Google";
+const String tDontHaveAnAccount= "Don't have an Account? ";
+
+// Signup Screen text
+const String tSignuptitle = 'Get On Board!';
+const String tSignupSubtitle= 'Create your profile to start your journey with us.....';
+const String tAlreadyHaveAnAccount = "Already have an Account? ";
+const String tFullname = "FullName";
+const String tphone ='Phone No';
