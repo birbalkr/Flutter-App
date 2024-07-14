@@ -4,7 +4,6 @@ import 'package:flutter/material.dart';
 
 class TextFormFieldTheme{
   TextFormFieldTheme._();
-
   static InputDecorationTheme lightInputDecorationTheme = const
   InputDecorationTheme(
       border: OutlineInputBorder(),

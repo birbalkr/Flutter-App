@@ -39,3 +39,18 @@ const String tResetPhone = "Reset via Phone Verifivcation.";
 const String tForgetPhoneSubTitle="Enter your registered Phone No to receive OTP";
 const String tForgetEmailsubTitle = "Enter your registered Email to recive OTP";
 const String tNext ="Next";
+
+// OTP Screen Text
+const String tOtpTitle="CO\nDE";
+const String tOtpSubTitle="verification";
+const String tOtpMessage="Enter the verifcation code sent at";
+
+//Dashboard screen text
+const String tDashboardTitle="Hey Birbal Kumar";
+const String tDashboardSubtitle="Explore Courses";
+const String tDashboardScreen="Search....";
+const String tAppName='D A S H B O A R D';
+const String tDashboardBannerTitle1 ='Android for Beginners';
+const String tDashboardBannerSubTitle ="10 Lessons";
+const String tDashboardBannerTitle2 ='Java';
+const String tDashboardButton = 'View All';

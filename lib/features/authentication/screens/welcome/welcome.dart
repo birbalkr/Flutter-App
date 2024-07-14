@@ -40,7 +40,7 @@ class WelcomeScreen extends StatelessWidget {
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: [
-                Image(image: const AssetImage(tbottom),height: height * 0.6,),
+                Image(image: const AssetImage(tBottom),height: height * 0.6,),
                   const Column(children: [ Text(name2),
                     Text(subname2, textAlign: TextAlign.center,),],),
                 Row(

@@ -21,14 +21,6 @@ class SplashScreen  extends StatelessWidget {
     body: Stack(
     children: [
         TFaceInAnimation(
-          durationInMS: 1600,
-          animate: TAnimationPosition(
-            topAfter: 0, topBefore: -40,
-            leftAfter: 0, leftBefore: -30,
-          ),
-          child: const Image(image: AssetImage(tsplashtopIcon)),
-        ),
-        TFaceInAnimation(
              durationInMS: 2000,
               animate: TAnimationPosition(topBefore: 80,topAfter: 80, leftAfter: tdefultsize,leftBefore: -80),
                     child: const Column(
@@ -42,7 +34,10 @@ class SplashScreen  extends StatelessWidget {
         TFaceInAnimation(
         durationInMS: 2400,
         animate: TAnimationPosition(bottomBefore: 0,bottomAfter: 60,rightBefore: tdefultsize, rightAfter: tdefultsize),
-        child: const Image(image: AssetImage(timage))
+        child: const SizedBox(
+            width: 300,
+            height: 400,
+            child: Image(image: AssetImage(tBottom),))
       )
 ],
     ),

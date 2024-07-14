@@ -30,14 +30,13 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-
-
   cupertino_icons: ^1.0.6
   google_fonts: ^6.2.1
   flutter_native_splash: ^2.4.1
   get: ^4.6.6
   liquid_swipe: ^3.1.0
   smooth_page_indicator: ^1.1.0
+  flutter_otp_text_field: ^1.1.3+2
 
 
 dev_dependencies:
@@ -47,21 +46,20 @@ dev_dependencies:
 
 # flutter_native_splash-development.yaml
 flutter_native_splash:
-  android: false
-#  color: "#ffffff"
-#  image: assets/images/gamedark.png
-#  color_dark: "#121212"
+  color: "#ffffff"
+  image: assets/game.png
+  color_dark: "#121212"
 #  image_dark: assets/images/game1.png
 #  branding_dark: assets/images/game2.png
 #
 #
   ios: false
   web: false
-#  android_12:
-#    image: assets/images/game2.png
-#    icon_background_color: "#ffffff"
-#    image_dark: assets/images/game2.png
-#    icon_background_color_dark: "#121212"
+  android_12:
+    image: assets/game.png
+    icon_background_color: "#ffffff"
+    image_dark: assets/game.png
+    icon_background_color_dark: "#121212"
 
 
 
@@ -75,6 +73,7 @@ flutter:
     - assets/images/icons/
     - assets/
     - assets/images/
+    - assets/images/Dashboard/
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
 

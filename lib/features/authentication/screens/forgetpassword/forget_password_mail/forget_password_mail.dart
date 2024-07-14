@@ -1,6 +1,8 @@
 import 'package:firstapp/constants/sizes.dart';
 import 'package:firstapp/constants/text_string.dart';
+import 'package:firstapp/features/authentication/screens/forgetpassword/forget_password_otp/otp_screen.dart';
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 
 import '../../../../../common_widget/form/form_header_widget.dart';
 import '../../../../../constants/image_string.dart';
@@ -16,29 +18,31 @@ class ForgetPasswordMail extends StatelessWidget {
           padding: const EdgeInsets.all(tdefultsize),
           child: Column(
             children:[
-              SizedBox(
+              const SizedBox(
                 height: tdefultsize * 4,
               ),
-              FormHeaderWidget(
-                  image: tbottom,
+              const FormHeaderWidget(
+                  image: tBottom,
                   subtitle: tForgetPasswdSubTitle,
                   title: tForgetPassword,
                   crossAxisAlignment: CrossAxisAlignment.center,
                   heightBetween: 30.0,
                 textAlign: TextAlign.center,
               ),
-              SizedBox(height: tFormHeight,),
+              const SizedBox(height: tFormHeight,),
               Form(child: Column(
                 children: [
-                  TextField(
+                  const TextField(
                     decoration: InputDecoration(
                       label: Text(tEmail),
                       hintText: tEmail,
                       prefixIcon: Icon(Icons.mail_outline_outlined),
                     ),
                   ),
-                  SizedBox(height: 20.0,),
-                  SizedBox(width: double.infinity, child: ElevatedButton(onPressed: (){}, child:const Text(tNext) ))
+                  const SizedBox(height: 20.0,),
+                  SizedBox(width: double.infinity, child: ElevatedButton(onPressed: (){
+                    Get.to(() => const OtpScreen());
+                  }, child:const Text(tNext) ))
                 ],
               ))
             ],

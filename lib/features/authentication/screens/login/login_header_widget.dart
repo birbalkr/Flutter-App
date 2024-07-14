@@ -18,7 +18,7 @@ class LoginHeaderWidget extends StatelessWidget {
     return const Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        FormHeaderWidget(image: tbottom, subtitle: tLoginSubtitle, title: tLoginTitle)
+        FormHeaderWidget(image: tBottom, subtitle: tLoginSubtitle, title: tLoginTitle)
       ],
     );
   }
