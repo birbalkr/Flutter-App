@@ -17,7 +17,8 @@ const String tsigup ="SIGNUP";
 const String tLoginTitle = 'Welcome Back,';
 const String tLoginSubtitle = "Let's Play Game and Eran ";
 const String tEmail = 'Email';
-const String tpasswd = 'Password';
+const String tPhone = 'Phone';
+const String tPasswd = 'Password';
 const String tForgetPassword= 'Forget Password';
 const String tSingnGoogle ="Sign-in-with-Google";
 const String tDontHaveAnAccount= "Don't have an Account? ";
@@ -28,3 +29,13 @@ const String tSignupSubtitle= 'Create your profile to start your journey with us
 const String tAlreadyHaveAnAccount = "Already have an Account? ";
 const String tFullname = "FullName";
 const String tphone ='Phone No';
+
+// Forget passwd text
+
+const String tForgetPasswdTitle = "Make Selection" ;
+const String tForgetPasswdSubTitle = "Select one of the option given below to reset your password";
+const String tResetViaMail = "Reset via Email Verification.";
+const String tResetPhone = "Reset via Phone Verifivcation.";
+const String tForgetPhoneSubTitle="Enter your registered Phone No to receive OTP";
+const String tForgetEmailsubTitle = "Enter your registered Email to recive OTP";
+const String tNext ="Next";

@@ -31,7 +31,7 @@ class SignUpFormWidget extends StatelessWidget {
           const SizedBox(height: tdefultsize - 20),
           TextFormField(
               decoration: const InputDecoration(
-                  label: Text(tpasswd),
+                  label: Text(tPasswd),
                   prefixIcon: Icon(Icons.password_outlined))),
           const SizedBox(height: tdefultsize - 10),
           SizedBox(
