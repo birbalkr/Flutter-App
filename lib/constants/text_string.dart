@@ -53,3 +53,6 @@ const String tDashboardBannerTitle1 ='Android for Beginners';
 const String tDashboardBannerSubTitle ="10 Lessons";
 const String tDashboardBannerTitle2 ='Java';
 const String tDashboardButton = 'View All';
+
+
+// Backend Code text
